@@ -4,7 +4,8 @@
 name="张三"
 age=12
 print(f"name={name},age={age}")
-
+#python中不允许int和字符串拼接
+print(f"name={name},age="+str(age))
 
 """
 数据类型转换
