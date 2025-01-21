@@ -23,7 +23,7 @@ except ValueError:
 except ZeroDivisionError as e:
     print(f"分母不能是0，异常信息：{e}")
 finally:
-    if res != None:
+    if res is not None:
         print(f"系统计算完成,结果={res}")
     else:
         print(f"系统计算失败,结果={res}")
